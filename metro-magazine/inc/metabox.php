@@ -18,22 +18,32 @@ function metro_magazine_add_sidebar_layout_box(){
     );
 }
 
+/**
+ * Get sidebar layout data.
+ *
+ * @return array
+ */
+if( ! function_exists( 'metro_magazine_get_sidebar_layout_data' ) ){
+    function metro_magazine_get_sidebar_layout_data(){
+        return array(
+            'right-sidebar' => array(
+                'value'=> 'right-sidebar',
+                'label'=> __( 'Right Sidebar(default)', 'metro-magazine'),
+                'thumbnail'=> get_template_directory_uri() . '/images/right-sidebar.png'         
+            ),
+            'no-sidebar' => array(
+                'value' => 'no-sidebar',
+                'label' => __('No Sidebar','metro-magazine'),
+                'thumbnail'=> get_template_directory_uri() . '/images/no-sidebar.png'
+            )   
+        );
+    }
+}
 
-$metro_magazine_sidebar_layout = array(
-    'right-sidebar' => array(
-        'value'=> 'right-sidebar',
-        'label'=> __( 'Right Sidebar(default)', 'metro-magazine'),
-        'thumbnail'=> get_template_directory_uri() . '/images/right-sidebar.png'         
-    ),
-    'no-sidebar' => array(
-        'value' => 'no-sidebar',
-        'label' => __('No Sidebar','metro-magazine'),
-        'thumbnail'=> get_template_directory_uri() . '/images/no-sidebar.png'
-    )
-);
 
 function metro_magazine_sidebar_layout_callback(){
-    global $post, $metro_magazine_sidebar_layout;
+    global $post;
+    $metro_magazine_sidebar_layout = metro_magazine_get_sidebar_layout_data();
     wp_nonce_field( basename( __FILE__ ), 'metro_magazine_nonce' ); ?>    
     <table class="form-table">
         <tr>
@@ -65,7 +75,8 @@ function metro_magazine_sidebar_layout_callback(){
  * @hooked to save_post hook
  */
 function metro_magazine_save_sidebar_layout( $post_id ){
-    global $metro_magazine_sidebar_layout;
+    $metro_magazine_sidebar_layout = metro_magazine_get_sidebar_layout_data();
+
 
     // Verify the nonce before proceeding.
     if( !isset( $_POST[ 'metro_magazine_nonce' ] ) || !wp_verify_nonce( $_POST[ 'metro_magazine_nonce' ], basename( __FILE__ ) ) )

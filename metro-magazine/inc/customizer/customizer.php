@@ -4,31 +4,39 @@
  *
  * @package Metro_Magazine
  */
-    function metro_magazine_modify_sections( $wp_customize ){
-    if ( version_compare( get_bloginfo('version'),'4.9', '>=') ) {
-          $wp_customize->get_section( 'static_front_page' )->title = __( 'Static Front Page', 'metro-magazine' );
-        }
+function metro_magazine_modify_sections( $wp_customize ){
+if ( version_compare( get_bloginfo('version'),'4.9', '>=') ) {
+        $wp_customize->get_section( 'static_front_page' )->title = __( 'Static Front Page', 'metro-magazine' );
     }
-    add_action( 'customize_register', 'metro_magazine_modify_sections' );
+}
+add_action( 'customize_register', 'metro_magazine_modify_sections' );
 
-    $metro_magazine_settings = array( 'default', 'home', 'ads', 'breadcrumb', 'blog', 'catcolor', 'color', 'custom', 'social', 'info', 'footer' );
+$metro_magazine_settings = array( 'default', 'home', 'ads', 'breadcrumb', 'blog', 'catcolor', 'color', 'custom', 'social', 'info', 'footer' );
+
+/**
+ * Initialize customizer options - runs on customize_register to ensure post types are registered
+ */
+function metro_magazine_init_customizer_options() {
+
+    global $metro_magazine_options_posts;
+	global $metro_magazine_option_categories;
 
     /* Option list of all post */	
     $metro_magazine_options_posts     = array();
     $metro_magazine_options_posts_obj = get_posts('posts_per_page=-1');
     $metro_magazine_options_posts[''] = __( 'Choose Post', 'metro-magazine' );
     foreach ( $metro_magazine_options_posts_obj as $metro_magazine_posts ) {
-    	$metro_magazine_options_posts[$metro_magazine_posts->ID] = $metro_magazine_posts->post_title;
+        $metro_magazine_options_posts[$metro_magazine_posts->ID] = $metro_magazine_posts->post_title;
     }
     
     /* Option list of all categories */
     $metro_magazine_args = array(
-	   'type'                     => 'post',
-	   'orderby'                  => 'name',
-	   'order'                    => 'ASC',
-	   'hide_empty'               => 1,
-	   'hierarchical'             => 1,
-	   'taxonomy'                 => 'category'
+    'type'                     => 'post',
+    'orderby'                  => 'name',
+    'order'                    => 'ASC',
+    'hide_empty'               => 1,
+    'hierarchical'             => 1,
+    'taxonomy'                 => 'category'
     ); 
     $metro_magazine_option_categories     = array();
     $metro_magazine_category_lists        = get_categories( $metro_magazine_args );
@@ -36,10 +44,13 @@
     foreach( $metro_magazine_category_lists as $metro_magazine_category ){
         $metro_magazine_option_categories[$metro_magazine_category->term_id] = $metro_magazine_category->name;
     }
+}
+add_action( 'customize_register', 'metro_magazine_init_customizer_options' );
 
-	foreach( $metro_magazine_settings as $setting ){
-		require get_template_directory() . '/inc/customizer/' . $setting . '.php';
-	}
+
+foreach( $metro_magazine_settings as $setting ){
+    require get_template_directory() . '/inc/customizer/' . $setting . '.php';
+}
 
 /**
  * Sanitization Functions
