@@ -74,8 +74,7 @@ function metro_magazine_customize_scripts() {
     $array = array( 
         'ajax_url'   => admin_url( 'admin-ajax.php' ),
         'flushit'    => __( 'Successfully Flushed!','metro-magazine' ),
-        
-        'nonce'      => wp_create_nonce('ajax-nonce')
+        'nonce'      => wp_create_nonce('metro_magazine_flush_fonts_nonce')
     );
 	wp_enqueue_style( 'metro_magazine-customize-style',get_template_directory_uri().'/inc/css/customize.css', '1.0', 'screen' );    
     wp_enqueue_script( 'metro_magazine-admin-js', get_template_directory_uri().'/inc/js/admin.js', array( 'jquery' ), '', true );
