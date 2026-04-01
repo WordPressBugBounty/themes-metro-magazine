@@ -76,3 +76,7 @@ label.row-element.more-detail{
 	margin-left:  0;
 	margin-right: 8px;
 }
+
+#accordion-section-metro_magazine_view_pro .accordion-section-title::after{
+    content: none;
+}

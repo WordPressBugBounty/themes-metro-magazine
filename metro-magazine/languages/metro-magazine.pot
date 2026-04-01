@@ -2,14 +2,14 @@
 # This file is distributed under the GNU General Public License v2 or later.
 msgid ""
 msgstr ""
-"Project-Id-Version: Metro Magazine 1.4.1\n"
+"Project-Id-Version: Metro Magazine 1.4.3\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/theme/metro-magazine\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2026-01-19T11:45:00+00:00\n"
+"POT-Creation-Date: 2026-04-01T11:29:59+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.12.0\n"
 "X-Domain: metro-magazine\n"
@@ -119,7 +119,7 @@ msgid "Dismiss"
 msgstr ""
 
 #: inc/customizer/ads.php:14
-#: build/dashboard.js:9691
+#: build/dashboard.js:6466
 #: src/pages/Home/index.jsx:20
 msgid "AD Settings"
 msgstr ""
@@ -167,7 +167,7 @@ msgstr ""
 
 #: inc/customizer/breadcrumb.php:60
 #: inc/template-functions.php:851
-#: build/dashboard.js:10166
+#: build/dashboard.js:6941
 #: src/pages/index.js:16
 msgid "Home"
 msgstr ""
@@ -194,7 +194,7 @@ msgid "Choose color for specific category."
 msgstr ""
 
 #: inc/customizer/color.php:14
-#: build/dashboard.js:9684
+#: build/dashboard.js:6459
 #: src/pages/Home/index.jsx:14
 msgid "Color Scheme Settings"
 msgstr ""
@@ -244,7 +244,7 @@ msgid "Default section provided by wordpress customizer."
 msgstr ""
 
 #: inc/customizer/default.php:32
-#: build/dashboard.js:9738
+#: build/dashboard.js:6513
 #: src/pages/Home/index.jsx:71
 msgid "Typography Settings"
 msgstr ""
@@ -267,7 +267,7 @@ msgid "Click the button to reset the local fonts cache."
 msgstr ""
 
 #: inc/customizer/footer.php:14
-#: build/dashboard.js:9712
+#: build/dashboard.js:6487
 #: src/pages/Home/index.jsx:38
 msgid "Footer Settings"
 msgstr ""
@@ -277,7 +277,7 @@ msgid "Copyright Info"
 msgstr ""
 
 #: inc/customizer/home.php:19
-#: build/dashboard.js:9698
+#: build/dashboard.js:6473
 #: src/pages/Home/index.jsx:26
 msgid "Home Page Settings"
 msgstr ""
@@ -1042,7 +1042,7 @@ msgid "Upgrade message from the plugin author:"
 msgstr ""
 
 #: inc/tgmpa/class-tgm-plugin-activation.php:2867
-#: build/dashboard.js:10114
+#: build/dashboard.js:6889
 #: src/pages/UsefulPlugins/index.jsx:151
 msgid "Install"
 msgstr ""
@@ -1052,7 +1052,7 @@ msgid "Update"
 msgstr ""
 
 #: inc/tgmpa/class-tgm-plugin-activation.php:2876
-#: build/dashboard.js:10120
+#: build/dashboard.js:6895
 #: src/pages/UsefulPlugins/index.jsx:161
 msgid "Activate"
 msgstr ""
@@ -1152,7 +1152,7 @@ msgid "Hide Details"
 msgstr ""
 
 #: inc/tgmpa/recommended-plugins.php:51
-#: build/dashboard.js:9988
+#: build/dashboard.js:6763
 #: src/pages/UsefulPlugins/index.jsx:17
 msgid "Rara One Click Demo Import"
 msgstr ""
@@ -1293,213 +1293,213 @@ msgstr ""
 msgid "Pages:"
 msgstr ""
 
-#: build/dashboard.js:9275
+#: build/dashboard.js:6050
 #: src/components/Tab/index.jsx:12
 msgid "Metro Magazine Pro"
 msgstr ""
 
-#: build/dashboard.js:9275
+#: build/dashboard.js:6050
 #: src/components/Tab/index.jsx:13
 msgid "Get access to all unlimited features."
 msgstr ""
 
-#: build/dashboard.js:9279
+#: build/dashboard.js:6054
 #: src/components/Tab/index.jsx:14
 msgid "Get Pro"
 msgstr ""
 
-#: build/dashboard.js:9393
+#: build/dashboard.js:6168
 #: src/components/TabHeader/index.jsx:7
 msgid "View Website"
 msgstr ""
 
-#: build/dashboard.js:9397
+#: build/dashboard.js:6172
 #: src/components/TabHeader/index.jsx:12
 msgid "View Tutorials "
 msgstr ""
 
-#: build/dashboard.js:9401
+#: build/dashboard.js:6176
 #: src/components/TabHeader/index.jsx:17
 msgid "Contact Support"
 msgstr ""
 
-#: build/dashboard.js:9405
+#: build/dashboard.js:6180
 #: src/components/TabHeader/index.jsx:22
 msgid "Docs"
 msgstr ""
 
-#: build/dashboard.js:9526
+#: build/dashboard.js:6301
 #: src/pages/FAQ/index.jsx:8
 msgid "What is the difference between Free and Pro?"
 msgstr ""
 
-#: build/dashboard.js:9527
+#: build/dashboard.js:6302
 #: src/pages/FAQ/index.jsx:12
 msgid "Overall, you will have more control over the customization and editing of your website with the Pro version."
 msgstr ""
 
-#: build/dashboard.js:9529
+#: build/dashboard.js:6304
 #: src/pages/FAQ/index.jsx:17
 msgid "What are the perks of upgrading to the Premium version?"
 msgstr ""
 
-#: build/dashboard.js:9530
+#: build/dashboard.js:6305
 #: src/pages/FAQ/index.jsx:18
 msgid "Along with the additional features and regular updates, you get dedicated and quick support with the premium theme. If you run into any issue while creating a website with the premium theme, you will get a quicker response compared to the free support."
 msgstr ""
 
-#: build/dashboard.js:9532
+#: build/dashboard.js:6307
 #: src/pages/FAQ/index.jsx:21
 msgid "Upgrading to the Pro version- will I lose my changes?"
 msgstr ""
 
-#: build/dashboard.js:9533
+#: build/dashboard.js:6308
 #: src/pages/FAQ/index.jsx:24
 msgid "When you upgrade to the Pro theme, your posts, pages, media, categories, and other data will remain intact-- all your data is saved."
 msgstr ""
 
-#: build/dashboard.js:9533
+#: build/dashboard.js:6308
 #: src/pages/FAQ/index.jsx:25
 msgid "However, since the Pro version comes with added features and settings, you will need to set up the additional features in the customizer. This process is simple and only takes a few minutes."
 msgstr ""
 
-#: build/dashboard.js:9533
+#: build/dashboard.js:6308
 #: src/pages/FAQ/index.jsx:26
 msgid "The Pro version is built with lots of flexibility in mind for future upgrades. Therefore, it is slightly different than the free theme but extremely flexible and easy-to-use."
 msgstr ""
 
-#: build/dashboard.js:9535
+#: build/dashboard.js:6310
 #: src/pages/FAQ/index.jsx:31
 msgid "How do I change the copyright text?"
 msgstr ""
 
-#: build/dashboard.js:9538
+#: build/dashboard.js:6313
 #: src/pages/FAQ/index.jsx:33
 #, js-format
 msgid "You can change the copyright text going to %1$s Appearance > Customize > Footer Settings. %2$s However, if you want to hide the author credit text, please %3$s."
 msgstr ""
 
-#: build/dashboard.js:9542
+#: build/dashboard.js:6317
 #: src/pages/FAQ/index.jsx:37
 msgid "Why is my theme not working well?"
 msgstr ""
 
-#: build/dashboard.js:9543
+#: build/dashboard.js:6318
 #: src/pages/FAQ/index.jsx:40
 msgid "If your customizer is not loading properly or you are having issues with the theme, it might be due to the plugin conflict."
 msgstr ""
 
-#: build/dashboard.js:9545
+#: build/dashboard.js:6320
 #: src/pages/FAQ/index.jsx:41
 #, js-format
 msgid "To solve the issue, deactivate all the plugins first, except the ones recommended by the theme. Then, hard reload your website using %1$s \"Ctrl+Shift+R\" %2$s on Windows and %1$s \"Cmd+Shift+R\" %2$s on Mac. If the issues are fixed, start activating the plugins one by one, and reload and check your site each time. This will help you find out the plugin that is causing the problem."
 msgstr ""
 
-#: build/dashboard.js:9549
+#: build/dashboard.js:6324
 #: src/pages/FAQ/index.jsx:42
 #, js-format
 msgid "If this didn't help, please contact us via our %s"
 msgstr ""
 
-#: build/dashboard.js:9553
+#: build/dashboard.js:6328
 #: src/pages/FAQ/index.jsx:47
 msgid "How can I solve my issues quickly and get faster support?"
 msgstr ""
 
-#: build/dashboard.js:9554
+#: build/dashboard.js:6329
 #: src/pages/FAQ/index.jsx:50
 msgid "Please ensure that you have updated to the latest version of the theme before you submit a support ticket for any issue. We might have already fixed the bug in the previous theme update."
 msgstr ""
 
-#: build/dashboard.js:9554
+#: build/dashboard.js:6329
 #: src/pages/FAQ/index.jsx:51
 msgid "Also, when you submit the support ticket, please try to provide maximum details so that we can look into your issue in detail and solve it in minimum time. We recommend you to send us a screenshot(s) with issues explained and your website's address (URL). You can contact us "
 msgstr ""
 
-#: build/dashboard.js:9557
+#: build/dashboard.js:6332
 #: src/pages/FAQ/index.jsx:51
 msgid "here."
 msgstr ""
 
-#: build/dashboard.js:9612
-#: build/dashboard.js:9748
+#: build/dashboard.js:6387
+#: build/dashboard.js:6523
 #: src/pages/FreePro/index.jsx:9
 #: src/pages/Home/index.jsx:85
 msgid "We Value Your Feedback!"
 msgstr ""
 
-#: build/dashboard.js:9614
-#: build/dashboard.js:9750
+#: build/dashboard.js:6389
+#: build/dashboard.js:6525
 #: src/pages/FreePro/index.jsx:11
 #: src/pages/Home/index.jsx:87
 msgid "Your review helps us improve and assists others in making informed choices. Share your thoughts today!"
 msgstr ""
 
-#: build/dashboard.js:9618
-#: build/dashboard.js:9754
+#: build/dashboard.js:6393
+#: build/dashboard.js:6529
 #: src/pages/FreePro/index.jsx:13
 #: src/pages/Home/index.jsx:89
 msgid "Leave a Review"
 msgstr ""
 
-#: build/dashboard.js:9621
-#: build/dashboard.js:9757
+#: build/dashboard.js:6396
+#: build/dashboard.js:6532
 #: src/pages/FreePro/index.jsx:17
 #: src/pages/Home/index.jsx:93
 msgid "Knowledge Base"
 msgstr ""
 
-#: build/dashboard.js:9622
-#: build/dashboard.js:9758
+#: build/dashboard.js:6397
+#: build/dashboard.js:6533
 #: src/pages/FreePro/index.jsx:18
 #: src/pages/Home/index.jsx:94
 msgid "Need help using our theme? Visit our well-organized Knowledge Base!"
 msgstr ""
 
-#: build/dashboard.js:9626
-#: build/dashboard.js:9762
+#: build/dashboard.js:6401
+#: build/dashboard.js:6537
 #: src/pages/FreePro/index.jsx:20
 #: src/pages/Home/index.jsx:96
 msgid "Explore"
 msgstr ""
 
-#: build/dashboard.js:9629
-#: build/dashboard.js:9765
+#: build/dashboard.js:6404
+#: build/dashboard.js:6540
 #: src/pages/FreePro/index.jsx:24
 #: src/pages/Home/index.jsx:100
 msgid "Need Assistance? "
 msgstr ""
 
-#: build/dashboard.js:9630
-#: build/dashboard.js:9766
+#: build/dashboard.js:6405
+#: build/dashboard.js:6541
 #: src/pages/FreePro/index.jsx:25
 #: src/pages/Home/index.jsx:101
 msgid "If you need help or have any questions, don't hesitate to contact our support team. We're here to assist you!"
 msgstr ""
 
-#: build/dashboard.js:9634
-#: build/dashboard.js:9770
+#: build/dashboard.js:6409
+#: build/dashboard.js:6545
 #: src/pages/FreePro/index.jsx:27
 #: src/pages/Home/index.jsx:103
 msgid "Submit a Ticket"
 msgstr ""
 
-#: build/dashboard.js:9644
+#: build/dashboard.js:6419
 #: src/pages/FreePro/index.jsx:35
 msgid "Free vs Pro image"
 msgstr ""
 
-#: build/dashboard.js:9677
+#: build/dashboard.js:6452
 #: src/pages/Home/index.jsx:8
 msgid "Site Identity"
 msgstr ""
 
-#: build/dashboard.js:9678
-#: build/dashboard.js:9685
-#: build/dashboard.js:9692
-#: build/dashboard.js:9699
-#: build/dashboard.js:9706
-#: build/dashboard.js:9713
+#: build/dashboard.js:6453
+#: build/dashboard.js:6460
+#: build/dashboard.js:6467
+#: build/dashboard.js:6474
+#: build/dashboard.js:6481
+#: build/dashboard.js:6488
 #: src/pages/Home/index.jsx:9
 #: src/pages/Home/index.jsx:15
 #: src/pages/Home/index.jsx:21
@@ -1509,21 +1509,21 @@ msgstr ""
 msgid "Customize"
 msgstr ""
 
-#: build/dashboard.js:9717
+#: build/dashboard.js:6492
 #: src/pages/Home/index.jsx:46
 msgid "Header Layouts"
 msgstr ""
 
-#: build/dashboard.js:9718
+#: build/dashboard.js:6493
 #: src/pages/Home/index.jsx:47
 msgid "Choose from different unique header layouts."
 msgstr ""
 
-#: build/dashboard.js:9719
-#: build/dashboard.js:9724
-#: build/dashboard.js:9734
-#: build/dashboard.js:9739
-#: build/dashboard.js:9744
+#: build/dashboard.js:6494
+#: build/dashboard.js:6499
+#: build/dashboard.js:6509
+#: build/dashboard.js:6514
+#: build/dashboard.js:6519
 #: src/pages/Home/index.jsx:48
 #: src/pages/Home/index.jsx:54
 #: src/pages/Home/index.jsx:66
@@ -1532,195 +1532,195 @@ msgstr ""
 msgid "Learn More"
 msgstr ""
 
-#: build/dashboard.js:9722
+#: build/dashboard.js:6497
 #: src/pages/Home/index.jsx:52
 msgid "Multiple Layouts"
 msgstr ""
 
-#: build/dashboard.js:9723
+#: build/dashboard.js:6498
 #: src/pages/Home/index.jsx:53
 msgid "Choose layouts for blogs, banners, posts and more."
 msgstr ""
 
-#: build/dashboard.js:9727
+#: build/dashboard.js:6502
 #: src/pages/Home/index.jsx:58
 msgid "Multiple Sidebar"
 msgstr ""
 
-#: build/dashboard.js:9728
+#: build/dashboard.js:6503
 #: src/pages/Home/index.jsx:59
 msgid "Set different sidebars for posts and pages."
 msgstr ""
 
-#: build/dashboard.js:9732
+#: build/dashboard.js:6507
 #: src/pages/Home/index.jsx:64
 msgid "Boost your website performance with ease."
 msgstr ""
 
-#: build/dashboard.js:9733
+#: build/dashboard.js:6508
 #: src/pages/Home/index.jsx:65
 msgid "Performance Settings"
 msgstr ""
 
-#: build/dashboard.js:9737
+#: build/dashboard.js:6512
 #: src/pages/Home/index.jsx:70
 msgid "Choose typography for different heading tags."
 msgstr ""
 
-#: build/dashboard.js:9742
+#: build/dashboard.js:6517
 #: src/pages/Home/index.jsx:76
 msgid "Import the demo content to kickstart your site."
 msgstr ""
 
-#: build/dashboard.js:9743
-#: build/dashboard.js:9940
+#: build/dashboard.js:6518
+#: build/dashboard.js:6715
 #: src/pages/Home/index.jsx:77
 #: src/pages/StarterSites/index.jsx:31
 msgid "One Click Demo Import"
 msgstr ""
 
-#: build/dashboard.js:9778
+#: build/dashboard.js:6553
 #: src/pages/Home/index.jsx:113
 msgid "Quick Customizer Settings"
 msgstr ""
 
-#: build/dashboard.js:9779
-#: build/dashboard.js:9788
+#: build/dashboard.js:6554
+#: build/dashboard.js:6563
 #: src/pages/Home/index.jsx:114
 #: src/pages/Home/index.jsx:125
 msgid "Go To Customizer"
 msgstr ""
 
-#: build/dashboard.js:9787
+#: build/dashboard.js:6562
 #: src/pages/Home/index.jsx:124
 msgid "More features with Pro version"
 msgstr ""
 
-#: build/dashboard.js:9801
+#: build/dashboard.js:6576
 #: src/pages/Home/index.jsx:135
 msgid "Learn more about the Pro version"
 msgstr ""
 
-#: build/dashboard.js:9832
+#: build/dashboard.js:6607
 #: src/pages/Offers/index.jsx:10
 msgid "Theme Club"
 msgstr ""
 
-#: build/dashboard.js:9837
+#: build/dashboard.js:6612
 #: src/pages/Offers/index.jsx:18
 msgid "Theme Installation & Setup"
 msgstr ""
 
-#: build/dashboard.js:9841
+#: build/dashboard.js:6616
 #: src/pages/Offers/index.jsx:23
 msgid "GDPR Compliance"
 msgstr ""
 
-#: build/dashboard.js:9845
+#: build/dashboard.js:6620
 #: src/pages/Offers/index.jsx:28
 msgid "Must Have SEO Setup"
 msgstr ""
 
-#: build/dashboard.js:9849
+#: build/dashboard.js:6624
 #: src/pages/Offers/index.jsx:33
 msgid "Must Have Plugins Setup"
 msgstr ""
 
-#: build/dashboard.js:9853
+#: build/dashboard.js:6628
 #: src/pages/Offers/index.jsx:38
 msgid "VIP Support"
 msgstr ""
 
-#: build/dashboard.js:9912
-#: build/dashboard.js:9922
-#: build/dashboard.js:9932
+#: build/dashboard.js:6687
+#: build/dashboard.js:6697
+#: build/dashboard.js:6707
 #: src/pages/StarterSites/index.jsx:12
 #: src/pages/StarterSites/index.jsx:18
 #: src/pages/StarterSites/index.jsx:24
 msgid "Demo image"
 msgstr ""
 
-#: build/dashboard.js:9917
-#: build/dashboard.js:9927
-#: build/dashboard.js:9937
+#: build/dashboard.js:6692
+#: build/dashboard.js:6702
+#: build/dashboard.js:6712
 #: src/pages/StarterSites/index.jsx:14
 #: src/pages/StarterSites/index.jsx:20
 #: src/pages/StarterSites/index.jsx:26
 msgid "Demo reverse image"
 msgstr ""
 
-#: build/dashboard.js:9942
+#: build/dashboard.js:6717
 #: src/pages/StarterSites/index.jsx:32
 #, js-format
 msgid "Get started effortlessly! Use our one-click demo import feature to set up your site instantly with all the sample data and settings. Please note that importing demo content will overwrite your existing site content and settings. %s Not recommended if you have existing content. %s"
 msgstr ""
 
-#: build/dashboard.js:9950
+#: build/dashboard.js:6725
 #: src/pages/StarterSites/index.jsx:35
 msgid "Get Starter Sites"
 msgstr ""
 
-#: build/dashboard.js:9980
+#: build/dashboard.js:6755
 #: src/pages/UsefulPlugins/index.jsx:7
 msgid "RaraTheme Companion"
 msgstr ""
 
-#: build/dashboard.js:9981
+#: build/dashboard.js:6756
 #: src/pages/UsefulPlugins/index.jsx:8
 msgid "23 extremely useful custom widgets to create an engaging website."
 msgstr ""
 
-#: build/dashboard.js:9984
+#: build/dashboard.js:6759
 #: src/pages/UsefulPlugins/index.jsx:12
 msgid "Contact Form 7"
 msgstr ""
 
-#: build/dashboard.js:9985
+#: build/dashboard.js:6760
 #: src/pages/UsefulPlugins/index.jsx:13
 msgid "Just another contact form plugin. Simple but flexible."
 msgstr ""
 
-#: build/dashboard.js:9989
+#: build/dashboard.js:6764
 #: src/pages/UsefulPlugins/index.jsx:18
 msgid "Make your website look like the live demo of the theme with a click!"
 msgstr ""
 
-#: build/dashboard.js:10117
+#: build/dashboard.js:6892
 #: src/pages/UsefulPlugins/index.jsx:156
 msgid "Installing..."
 msgstr ""
 
-#: build/dashboard.js:10123
+#: build/dashboard.js:6898
 #: src/pages/UsefulPlugins/index.jsx:166
 msgid "Activating..."
 msgstr ""
 
-#: build/dashboard.js:10126
+#: build/dashboard.js:6901
 #: src/pages/UsefulPlugins/index.jsx:171
 msgid "Activated"
 msgstr ""
 
-#: build/dashboard.js:10172
+#: build/dashboard.js:6947
 #: src/pages/index.js:21
 msgid "Starter Sites"
 msgstr ""
 
-#: build/dashboard.js:10178
+#: build/dashboard.js:6953
 #: src/pages/index.js:26
 msgid "Free vs Pro"
 msgstr ""
 
-#: build/dashboard.js:10184
+#: build/dashboard.js:6959
 #: src/pages/index.js:31
 msgid "Offers"
 msgstr ""
 
-#: build/dashboard.js:10190
+#: build/dashboard.js:6965
 #: src/pages/index.js:36
 msgid "FAQs"
 msgstr ""
 
-#: build/dashboard.js:10196
+#: build/dashboard.js:6971
 #: src/pages/index.js:41
 msgid "Useful Plugins"
 msgstr ""
